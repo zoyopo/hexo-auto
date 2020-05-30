@@ -17,7 +17,7 @@ jobs:
       # from: https://github.com/actions/setup-node 
       - name: Setup Node.js 10.x 
         uses: actions/setup-node@master 
-        with: node-version: "10.x" 
+          with: node-version: "10.x" 
       # from https://github.com/x-cold/yuque-hexo 
       - name: Setup Hexo Dependencies and Generate Public Files 
       env: 
