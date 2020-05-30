@@ -6,13 +6,15 @@
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
-    "server": "hexo server"
+    "server": "hexo server",
+    "start": "yuque-hexo clean && yuque-hexo sync && hexo clean && hexo generate"
   },
   "hexo": {
     "version": "4.2.1"
   },
   "dependencies": {
     "hexo": "^4.2.1",
+    "hexo-deployer-git": "^2.1.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
     "hexo-generator-index": "^1.0.0",
@@ -22,7 +24,16 @@
     "hexo-renderer-stylus": "^1.1.0",
     "hexo-server": "^1.0.0"
   },
+  "yuqueConfig": {
+    "baseUrl": "https://www.yuque.com/api/v2",
+    "login": "xiaolongbao-mk0lr",
+    "repo": "codelifebalance",
+    "mdNameFormat": "title",
+    "postPath": "source/_posts",
+    "onlyPublished": false
+  },
   "devDependencies": {
+    "hexo-util": "^2.1.0",
     "yuque-hexo": "^1.6.5"
   }
 }
