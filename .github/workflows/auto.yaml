@@ -21,14 +21,14 @@ jobs:
           node-version: "10.x" 
       # from https://github.com/x-cold/yuque-hexo 
       - name: Setup Hexo Dependencies and Generate Public Files 
-      env: 
-        YUQUE_TOKEN: ${{ secrets.YUQUE_TOKEN }} 
-      run: |
-        npm install hexo-cli -g 
-        npm install yuque-hexo -g 
-        npm install npm run start 
+        env: 
+          YUQUE_TOKEN: ${{ secrets.YUQUE_TOKEN }} 
+        run: |
+          npm install hexo-cli -g 
+          npm install yuque-hexo -g 
+          npm install npm run start 
         # from https://github.com/peaceiris/actions-gh-pages 
-        - name: Deploy 
+       - name: Deploy 
           uses: peaceiris/actions-gh-pages@v3 
             with: 
               deploy_key: ${{ secrets.SSH_PRIVATE_KEY }} 
