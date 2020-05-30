@@ -1,6 +1,6 @@
 # workflow name name: Deploy To Github Pages # 当有 push 到仓库和外部触发的时候就运行 
 on: [push, repository_dispatch] 
-# YUQUE_TOKEN # Github_SSH_PRIVATE_KEY 
+# YUQUE_TOKEN # GIT_SSH_PRIVATE_KEY 
 jobs: 
   deploy: 
     name: Deploy Hexo Public To Pages 
@@ -31,7 +31,7 @@ jobs:
       - name: Deploy 
         uses: peaceiris/actions-gh-pages@v3 
         with: 
-          deploy_key: ${{ secrets.Github_SSH_PRIVATE_KEY }} 
+          deploy_key: ${{ secrets.GIT_SSH_PRIVATE_KEY }} 
           external_repository: godlikedeveloper/godlikedeveloper.github.io
           publish_branch: master 
           publish_dir: ./public commit_message:syncBlog1
