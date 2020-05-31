@@ -20,9 +20,7 @@ jobs:
         with: 
           node-version: "10.x" 
       # from https://github.com/x-cold/yuque-hexo 
-      - name: Setup Hexo Dependencies and Generate Public Files 
-        env: 
-          YUQUE_TOKEN: ${{ secrets.YUQUE_TOKEN }} 
+      - name: Setup Hexo Dependencies and Generate Public Files       
         run: |
           npm install hexo-cli -g 
           npm install yuque-hexo -g 
@@ -41,6 +39,8 @@ jobs:
           git config --global user.name '694534942@qq.com' 
           git config --global user.email '694534942@qq.com'
       - name: Deploy Hexo 
+        env: 
+          YUQUE_TOKEN: ${{ secrets.YUQUE_TOKEN }} 
         run: |
           npm run start 
 
