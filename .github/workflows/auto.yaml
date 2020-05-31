@@ -35,4 +35,4 @@ jobs:
           external_repository: godlikedeveloper/godlikedeveloper.github.io
           publish_branch: master 
           publish_dir: ./public 
-          commit_message: commit_message:syncBlog1
+          commit_message: syncBlog1
