@@ -34,4 +34,5 @@ jobs:
           deploy_key: ${{ secrets.GIT_SSH_PRIVATE_KEY }} 
           external_repository: godlikedeveloper/godlikedeveloper.github.io
           publish_branch: master 
-          publish_dir: ./public commit_message:syncBlog1
+          publish_dir: ./public 
+          commit_message: commit_message:syncBlog1
