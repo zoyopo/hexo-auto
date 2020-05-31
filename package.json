@@ -7,7 +7,7 @@
     "clean": "hexo clean",
     "deploy": "hexo deploy",
     "server": "hexo server",
-    "start": "yuque-hexo clean && yuque-hexo sync && hexo clean && hexo generate && hexo d"
+    "start": "yuque-hexo clean && YUQUE_TOKEN=2p42W9qroGQVhB5EsilewZauheNlafNEBj1svwsC yuque-hexo sync && hexo clean && hexo generate && hexo d"
   },
   "hexo": {
     "version": "4.2.1"
@@ -18,6 +18,7 @@
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
     "hexo-generator-index": "^1.0.0",
+    "hexo-generator-seo-friendly-sitemap": "^0.0.25",
     "hexo-generator-tag": "^1.0.0",
     "hexo-renderer-ejs": "^1.0.0",
     "hexo-renderer-marked": "^2.0.0",
