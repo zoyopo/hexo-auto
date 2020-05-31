@@ -22,9 +22,10 @@ jobs:
       # from https://github.com/x-cold/yuque-hexo 
       - name: Setup Hexo Dependencies and Generate Public Files       
         run: |
-          npm install hexo-cli -g 
-          npm install yuque-hexo -g 
-          npm install 
+          npm install -g cnpm --registry=https://registry.npm.taobao.org
+          cnpm install hexo-cli -g 
+          cnpm install yuque-hexo -g 
+          cnpm install 
 
       - name: Setup Deploy Private Key 
         env: 
@@ -43,7 +44,8 @@ jobs:
           YUQUE_TOKEN: ${{ secrets.YUQUE_TOKEN }} 
         run: |
           yuque-hexo clean 
-          yuque-hexo sync         
+          yuque-hexo sync
+          hexo clean 
           hexo generate
           hexo d
 
