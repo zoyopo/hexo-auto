@@ -43,7 +43,7 @@ jobs:
         env: 
           YUQUE_TOKEN: ${{ secrets.YUQUE_TOKEN }} 
         run: |
-          git clone https://github.com/theme-next/hexo-theme-next themes/next
+          git clone https://github.com/Shen-Yu/hexo-theme-ayer.git themes/ayer
           yuque-hexo clean 
           yuque-hexo sync
           hexo clean 
