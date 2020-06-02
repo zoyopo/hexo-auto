@@ -24,7 +24,7 @@ preview:
   model: wave  #cloud
   welcome_image: /images/theme/welcome-image.jpg
   motto:
-    default: 我在开了灯的床头下，想问问自己的心啊。
+    default: 你突然对我说，七里香的名字很美~
     api:  #'http://localhost:3000/api/motto'
 
 # Menu
@@ -41,11 +41,11 @@ copyright: <p>Copyright© 2019-2020 | <a target="_blank" href="https://www.izhao
 
 # Social
 social:
-  qq: tencent://message/?Menu=yes&uin=894519210 || iconQQ || '#12B7F5'
+  qq: tencent://message/?Menu=yes&uin=694534942 || iconQQ || '#12B7F5'
   wechat: javascript:; || iconwechat-fill || '#09BB07'
   instagram: https://www.instagram.com/izhaoo/ || iconinstagram || '#DA2E76'
-  github: https://github.com/izhaoo || icongithub-fill || '#24292E'
-  email: mailto:izhaoo@163.com || iconmail
+  github: https://github.com/godlikedeveloper || icongithub-fill || '#24292E'
+  email: mailto:694534942@qq.com || iconmail
 
 # Fab (FloatActionButton)
 fab:
@@ -128,8 +128,18 @@ fancybox: true
 # Pjax
 pjax: false
 
+index_generator:
+  path: ''
+  per_page: 9
+  order_by: -date
+  
 # HighLight
-highlight: true
+highlight:
+  enable: true
+  line_number: true
+  auto_detect: true
+  hljs: true
+  tab_replace:
 
 # --------------------------------------------------
 # Script settings
