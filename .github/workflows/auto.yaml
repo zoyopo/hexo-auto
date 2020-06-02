@@ -34,12 +34,12 @@ jobs:
           mkdir -p ~/.ssh/ 
           echo "$HEXO_DEPLOY_PRIVATE_KEY" > ~/.ssh/id_rsa 
           chmod 600 ~/.ssh/id_rsa 
-          ssh-keyscan -t rsa 140.143.243.12 >> ~/.ssh/known_hosts 
+          ssh-keyscan github.com >> ~/.ssh/known_hosts 
         
       - name: Setup Git Infomation 
         run: |
-          git config --global user.name 'p694534942@gmail.com' 
-          git config --global user.email 'p694534942@gmail.com'
+          git config --global user.name '694534942@qq.com' 
+          git config --global user.email '694534942@qq.com'
       - name: Deploy Hexo 
         env: 
           YUQUE_TOKEN: ${{ secrets.YUQUE_TOKEN }} 
