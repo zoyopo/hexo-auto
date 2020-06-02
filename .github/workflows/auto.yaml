@@ -34,8 +34,8 @@ jobs:
           mkdir -p ~/.ssh/ 
           echo "$HEXO_DEPLOY_PRIVATE_KEY" > ~/.ssh/id_rsa 
           chmod 600 ~/.ssh/id_rsa 
-          ssh-keyscan github.com >> ~/.ssh/known_hosts 
-          ssh-copy-id -i ~/.ssh/id_rsa.pub git@u-to-world.com
+          ssh-keyscan -t rsa 140.143.243.12 >> ~/.ssh/known_hosts 
+        
       - name: Setup Git Infomation 
         run: |
           git config --global user.name 'p694534942@gmail.com' 
