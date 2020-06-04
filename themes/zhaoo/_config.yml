@@ -61,8 +61,8 @@ post_image: /images/theme/post-image.jpg
 
 # Donate
 donate:
-  alipay: https://raw.githubusercontent.com/godlikedeveloper/hexo-auto/master/alipay.png
-  wechat: https://raw.githubusercontent.com/godlikedeveloper/hexo-auto/master/weixinpay.png
+  alipay: http://img.u-to-world.com/blog/alipay.png
+  wechat: http://img.u-to-world.com/blog/weixinpay.png
 
 # --------------------------------------------------
 # Page settings
