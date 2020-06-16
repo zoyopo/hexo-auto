@@ -25,7 +25,7 @@ preview:
   welcome_image: /images/theme/welcome-image.jpg
   motto:
     default: 你突然对我说，七里香的名字很美~
-    api:  #'http://localhost:3000/api/motto'
+    api:  http://api.lovelive.tools/api/SweetNothings
 
 # Menu
 menu:
