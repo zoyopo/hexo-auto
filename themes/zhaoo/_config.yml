@@ -93,7 +93,7 @@ gitalk:
   clientSecret:
 
 # Valine
-valine: //cdn.jsdelivr.net/npm/valine@1/dist/Valine.min.js
+valine:
   appId: XgHS51JuLkeipj92BK4KyIEI-gzGzoHsz
   appKey: LHxBDnRt6RQCuByhRfp1pkVN
   placeholder: ヾﾉ≧∀≦)o来啊，快活啊!
