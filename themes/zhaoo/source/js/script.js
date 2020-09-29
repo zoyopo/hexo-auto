@@ -52,6 +52,12 @@ console.log("%c Github %c", "background:#333333; color:#ffffff", "", "https://gi
   }
 
   var Action = {
+    postHeadImageChange:function(){
+      if($('.article').length){
+          $('.head img').attr('src',$($('.content img')[0]).attr('src'))
+         }     
+    },
+    
     smoothScroll: function () {
       $(".smooth-scroll").click(function () { // a[href *=#], area[href *=#]
         if (location.pathname.replace(/^\//, "") == this.pathname.replace(/^\//, "") && location.hostname == this.hostname) {
@@ -179,6 +185,7 @@ console.log("%c Github %c", "background:#333333; color:#ffffff", "", "https://gi
   }
 
   $(function () {
+    Action.postHeadImageChange();
     Action.smoothScroll();
     Action.loading();
     Action.fab();
