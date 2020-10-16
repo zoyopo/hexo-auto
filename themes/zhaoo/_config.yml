@@ -58,7 +58,7 @@ fab:
 # --------------------------------------------------
 
 # Post image
-post_image: /images/theme/post-image.jpg
+post_image: /images/theme/post-img.jpg
 
 # Donate
 donate:
