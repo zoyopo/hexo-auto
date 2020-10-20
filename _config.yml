@@ -100,5 +100,5 @@ theme: zhaoo
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:godlikedeveloper/godlikedeveloper.github.io
+  repo: git@github.com:zoyopo/zoyopo.github.io
   branch: master
