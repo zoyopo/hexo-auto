@@ -24,7 +24,7 @@ preview:
   model: wave  #cloud
   welcome_image: /images/theme/welcome-image.jpg
   motto:
-    default: 你突然对我说，七里香的名字很美~
+    default: 黑色的不是夜晚，是漫长的孤单
     api: http://api.lovelive.tools/api/SweetNothings
 
 # Menu
