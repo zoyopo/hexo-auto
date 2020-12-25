@@ -24,7 +24,7 @@ preview:
   model: wave  #cloud
   welcome_image: /images/theme/welcome-image.jpg
   motto:
-    default: 黑色的不是夜晚，是漫长的孤单
+    default: 不要温和地走进那良夜
     api: http://api.lovelive.tools/api/SweetNothings
 
 # Menu
