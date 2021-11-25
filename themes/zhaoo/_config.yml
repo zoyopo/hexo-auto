@@ -25,7 +25,7 @@ preview:
   welcome_image: /images/theme/welcome-image.jpg
   motto:
     default: 不要温和地走进那良夜
-    api: http://api.lovelive.tools/api/SweetNothings
+    api: https://v1.hitokoto.cn/?encode=text&c=d
 
 # Menu
 menu:
