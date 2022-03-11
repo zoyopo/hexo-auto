@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Paige's XSpace
-subtitle: 'tech blog'
+title: 小笼包的前端技术博客
+subtitle: '前端技术博客'
 description: 'tech blog about web develop'
-keywords:
-author: zhangyp
+keywords:js css html react nodejs nextjs react-native
+author: 张云鹏
 language: zh
 timezone: ''
 sitemap:
