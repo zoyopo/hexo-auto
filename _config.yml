@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 小笼包的前端技术博客
+title: '小笼包的前端技术博客'
 subtitle: '前端技术博客'
 description: 'tech blog about web develop'
 keywords:js css html react nodejs nextjs react-native
-author: 张云鹏
+author: '张云鹏'
 language: zh
 timezone: ''
 sitemap:
