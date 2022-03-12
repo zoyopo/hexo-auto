@@ -5,7 +5,7 @@
 # Color
 color:
   default: "#33333D"
-  link: "#FFBE5B"
+  link: "#ff9800"
 
 # Favicon
 favicon:
@@ -16,7 +16,7 @@ favicon:
   msapplication: /images/icons/favicon-144x144.png
 
 # Keywords
-keywords: zhaoo, hexo-theme-zhaoo
+keywords: react,vue,react-native,webpack,javascript,css,nodejs,happy daily
 
 # Preview
 preview:
