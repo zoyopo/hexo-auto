@@ -3,10 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: '小笼包的前端技术博客'
-subtitle: '前端技术博客'
-description: 'tech blog about web develop'
-keywords:'js css html react nodejs nextjs react-native'
+title: "抓根宝的须弥芥子"  
+subtitle: "前端技术与沙雕日常"
+description: "a blog share frontend coding experience and happy day"
 author: zhangyunpeng
 language: zh
 timezone: ''
