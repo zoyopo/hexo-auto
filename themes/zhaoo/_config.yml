@@ -13,7 +13,7 @@ favicon:
   medium: /images/icons/favicon-32x32.png
   apple_touch_icon: /images/icons/apple-touch-icon.png
   safari_pinned_tab: /images/icons/stun-logo.svg
-  msapplication: /images/icons/favicon-144x144.png
+  msapplication: /images/icons/favicon-128x128.png
 
 # Keywords
 keywords: react,vue,react-native,webpack,javascript,css,nodejs,happy daily
