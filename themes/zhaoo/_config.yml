@@ -62,8 +62,8 @@ post_image: https://api.yimian.xyz/img?type=head
 
 # Donate
 donate:
-  alipay: http://img.u-to-world.com/blog/alipay.png
-  wechat: http://img.u-to-world.com/blog/weixinpay.png
+  alipay: https://pic.imgdb.cn/item/622edf135baa1a80abb1276b.jpg
+  wechat: https://pic.imgdb.cn/item/622edf115baa1a80abb1253f.jpg
 
 # --------------------------------------------------
 # Page settings
