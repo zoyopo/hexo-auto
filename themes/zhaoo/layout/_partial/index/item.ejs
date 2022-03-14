@@ -10,14 +10,7 @@
     </a>
     <div class="post-content">
       <h3 class="post-title"><a href="<%- url_for(post.path) %>"><%= post.title %></a></h3>
-      <% if(post.excerpt.length > 0) { %>
-      <% var excerpt = truncate(strip_html(post.excerpt), {length: 100}) %>
-      <% } else { %>
-      <% var excerpt = truncate(strip_html(post.excerpt), {length: 100}) %>
-      <% } %>
-      <div class="post-excerpt">
-        <p class="substr-3"><%- excerpt %></p>
-      </div>
+
       <div class="post-info">
         <span class="post-info-item"><i class="iconfont iconcalendar"></i><%- date(post.date, "YYYY-MM-DD") %></span
           class="post-info-item">
