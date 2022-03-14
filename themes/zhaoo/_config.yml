@@ -58,7 +58,7 @@ fab:
 # --------------------------------------------------
 
 # Post image
-post_image: https://api.yimian.xyz/img
+post_image: https://api.yimian.xyz/img?type=head
 
 # Donate
 donate:
