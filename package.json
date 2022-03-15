@@ -35,6 +35,6 @@
   },
   "devDependencies": {
     "hexo-util": "^2.1.0",
-    "yuque-hexo": "^1.6.5"
+    "yuque-hexo": "^1.7.0"
   }
 }
