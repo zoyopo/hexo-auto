@@ -169,10 +169,10 @@
     autoFillHeadImage:function(){
      console.log('autoFillHeadImage')
      setTimeout(function(){
-       var firstImageInContent =  $('.content').find('a[data-fancybox=images]').attr('href');
+       var firstImageInContent = $('.content').find('a[data-fancybox=images]').attr('href');
        $('.head').attr('href',firstImageInContent);
        $('.head img').attr('src',firstImageInContent);        
-      },800)
+      },300)
     },    
     fixLazyloadFancybox: function () {
       $(document).find('.article img[data-original]').each(function () {
