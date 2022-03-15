@@ -216,7 +216,9 @@ console.log("%c Github %c", "background:#333333; color:#ffffff", "", "https://gi
     if (CONFIG.lazyload && CONFIG.fancybox) {
       Action.fixLazyloadFancybox();
     }
-     Action.autoFillHeadImage();
+    $(document).ready(function(){
+         Action.autoFillHeadImage();
+    })
   });
 
 })(jQuery);
