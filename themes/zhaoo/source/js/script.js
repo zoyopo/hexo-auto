@@ -168,7 +168,7 @@
     
     autoFillHeadImage:function(){
      console.log('autoFillHeadImage')
-     setTimeOut(function(){
+     setTimeout(function(){
        var firstImageInContent =  $('.content').find('a[data-fancybox=images]').attr('href');
        $('.head').attr('href',firstImageInContent);
        $('.head img').attr('src',firstImageInContent);        
