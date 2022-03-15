@@ -166,6 +166,12 @@ console.log("%c Github %c", "background:#333333; color:#ffffff", "", "https://gi
         threshold: 200,
       });
     },
+    
+    autoFillHeadImage:function(){
+     var firstImageInContent =  $('.content').find('a[data-fancybox=images]').attr('href');
+     $('.head img').attr('src',firstImageInContent);
+    }
+    
     fixLazyloadFancybox: function () {
       $(document).find('.article img[data-original]').each(function () {
         $(this).parent().attr("href", $(this).attr("data-original"));
@@ -186,7 +192,7 @@ console.log("%c Github %c", "background:#333333; color:#ffffff", "", "https://gi
   }
 
   $(function () {
-    Action.postHeadImageChange();
+    Action.autoFillHeadImage();
     Action.smoothScroll();
     Action.loading();
     Action.fab();
