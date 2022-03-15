@@ -170,8 +170,7 @@ console.log("%c Github %c", "background:#333333; color:#ffffff", "", "https://gi
     autoFillHeadImage:function(){
      var firstImageInContent =  $('.content').find('a[data-fancybox=images]').attr('href');
      $('.head img').attr('src',firstImageInContent);
-    }
-    
+    },    
     fixLazyloadFancybox: function () {
       $(document).find('.article img[data-original]').each(function () {
         $(this).parent().attr("href", $(this).attr("data-original"));
