@@ -1,4 +1,3 @@
-console.log("%c Github %c", "background:#333333; color:#ffffff", "", "https://github.com/izhaoo/hexo-theme-zhaoo");
 
 (function ($) {
   "use strict";
@@ -168,9 +167,12 @@ console.log("%c Github %c", "background:#333333; color:#ffffff", "", "https://gi
     },
     
     autoFillHeadImage:function(){
-     var firstImageInContent =  $('.content').find('a[data-fancybox=images]').attr('href');
-      $('.head').attr('href',firstImageInContent);
-     $('.head img').attr('src',firstImageInContent);
+     console.log('autoFillHeadImage')
+     setTimeOut(function(){
+       var firstImageInContent =  $('.content').find('a[data-fancybox=images]').attr('href');
+       $('.head').attr('href',firstImageInContent);
+       $('.head img').attr('src',firstImageInContent);        
+      },800)
     },    
     fixLazyloadFancybox: function () {
       $(document).find('.article img[data-original]').each(function () {
