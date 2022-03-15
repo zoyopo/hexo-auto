@@ -169,6 +169,7 @@ console.log("%c Github %c", "background:#333333; color:#ffffff", "", "https://gi
     
     autoFillHeadImage:function(){
      var firstImageInContent =  $('.content').find('a[data-fancybox=images]').attr('href');
+      $('.head').attr('href',firstImageInContent);
      $('.head img').attr('src',firstImageInContent);
     },    
     fixLazyloadFancybox: function () {
@@ -190,8 +191,7 @@ console.log("%c Github %c", "background:#333333; color:#ffffff", "", "https://gi
     }
   }
 
-  $(function () {
-    Action.autoFillHeadImage();
+  $(function () {   
     Action.smoothScroll();
     Action.loading();
     Action.fab();
@@ -216,6 +216,7 @@ console.log("%c Github %c", "background:#333333; color:#ffffff", "", "https://gi
     if (CONFIG.lazyload && CONFIG.fancybox) {
       Action.fixLazyloadFancybox();
     }
+     Action.autoFillHeadImage();
   });
 
 })(jQuery);
