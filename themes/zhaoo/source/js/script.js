@@ -218,9 +218,7 @@
     if (CONFIG.lazyload && CONFIG.fancybox) {
       Action.fixLazyloadFancybox();
     }
-    $(document).ready(function(){
-         Action.autoFillHeadImage();
-    })
+
   });
 
 })(jQuery);
