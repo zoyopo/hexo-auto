@@ -239,7 +239,7 @@ highlight:
 # CDN
 vendors:
   jquery_js: /lib/jquery/jquery.js
-  fancybox_js:/lib/fancybox/fancybox.js
+  fancybox_js: /lib/fancybox/fancybox.js
   pjax_js: /lib/pjax/pjax.js
   lazyload_js: /lib/lazyload/lazyload.js
   justifiedGallery_js: /lib/justifiedGallery/justifiedGallery.js
