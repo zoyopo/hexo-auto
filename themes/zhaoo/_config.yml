@@ -238,15 +238,15 @@ highlight:
 
 # CDN
 vendors:
-  jquery_js: https://cdn.bootcdn.net/ajax/libs/jquery/3.4.1/jquery.min.js
-  fancybox_js: https://cdn.bootcdn.net/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js
-  pjax_js: https://cdn.bootcdn.net/ajax/libs/jquery.pjax/2.0.1/jquery.pjax.min.js
-  lazyload_js: https://cdn.bootcdn.net/ajax/libs/jquery_lazyload/1.9.1/jquery.lazyload.min.js
-  justifiedGallery_js: https://cdn.bootcdn.net/ajax/libs/justifiedGallery/3.8.1/js/jquery.justifiedGallery.min.js
-  fancybox_css: https://cdn.bootcdn.net/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css
-  highlight_css: https://cdn.bootcdn.net/ajax/libs/highlight.js/11.5.0/styles/base16/dracula.min.css
+  jquery_js: /lib/jquery/jquery.js
+  fancybox_js:/lib/fancybox/fancybox.js
+  pjax_js: /lib/pjax/pjax.js
+  lazyload_js: /lib/lazyload/lazyload.js
+  justifiedGallery_js: /lib/justifiedGallery/justifiedGallery.js
+  fancybox_css: /lib/fancybox/fancybox.css
+  highlight_css: /lib/highlight/drucula.min.css
   iconfont_css: //at.alicdn.com/t/font_1445822_58xq2j9v1id.css
-  justifiedGallery_css: https://cdn.bootcdn.net/ajax/libs/justifiedGallery/3.8.1/css/justifiedGallery.min.css
+  justifiedGallery_css: /lib/justifiedGallery/justifiedGallery.css
 
 # SEO
 seo:
