@@ -59,6 +59,7 @@ fab:
 
 # Post image
 post_image: https://api.yimian.xyz/img?type=head
+post_head_image: https://api.ixiaowai.cn/mcapi/mcapi.php
 
 # Donate
 donate:
