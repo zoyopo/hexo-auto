@@ -25,7 +25,7 @@ jobs:
           npm install -g cnpm --registry=https://registry.npm.taobao.org
           cnpm install hexo-cli -g 
           cnpm install yuque-hexo -g 
-          npm install 
+          cnpm install 
 
       - name: Setup Deploy Private Key 
         env: 
