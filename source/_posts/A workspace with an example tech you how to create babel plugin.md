@@ -11,7 +11,7 @@ This is an example about how to implement `babel-optional-chain` plugin.Also,you
 - step 1
 
 ```bash
-yarn or npm i
+yarn or npm install
 ```
 
 - step2 entry config
