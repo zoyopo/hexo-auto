@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: "抓根宝的须弥芥子"
+title: "抓根宝的须弥芥子"  
 subtitle: "前端技术与沙雕日常"
 description: "a blog share frontend coding experience and happy day"
 author: zhangyunpeng
@@ -98,7 +98,6 @@ theme: zhaoo
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  token:${{ secrets.GIT_SSH_PRIVATE_KEY }}
   type: git
-  repo: https://github.com/zoyopo/zoyopo.github.io
+  repo: git@github.com:zoyopo/zoyopo.github.io
   branch: master
