@@ -98,6 +98,7 @@ theme: zhaoo
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
+  token:${{ secrets.GIT_SSH_PRIVATE_KEY }}
   type: git
   repo: https://github.com/zoyopo/zoyopo.github.io
   branch: master
