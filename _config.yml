@@ -99,5 +99,5 @@ theme: zhaoo
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/zoyopo/zoyopo.github.io.git
+  repo: https://github.com/zoyopo/zoyopo.github.io
   branch: master
